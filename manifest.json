@@ -1,0 +1,39 @@
+{
+  "name": "Biblia Reina-Valera 1960",
+  "short_name": "Biblia RV1960",
+  "description": "Biblia Reina-Valera 1960 con navegación por libros, capítulos y búsqueda",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#3D2B1F",
+  "theme_color": "#6B4226",
+  "lang": "es",
+  "categories": ["books", "education", "religion"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Génesis 1",
+      "url": "./biblia.html#genesis-1",
+      "description": "Ir al inicio del Génesis"
+    },
+    {
+      "name": "Juan 3",
+      "url": "./biblia.html#juan-3",
+      "description": "Ir a Juan capítulo 3"
+    }
+  ]
+}
